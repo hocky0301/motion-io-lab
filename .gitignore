@@ -1,0 +1,26 @@
+outputs/
+.venv/
+__pycache__/
+*.pyc
+*.sqlite3
+*.sqlite
+*.db
+.env
+.env.*
+.DS_Store
+*.egg-info/
+build/
+.pytest_cache/
+
+# files the docs ask you to create at the top level, and raw media
+/joycon_probe
+/camera.json
+/calibration_points.csv
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.heic
+*.jpg
+*.jpeg
+*.npz

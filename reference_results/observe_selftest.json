@@ -1,0 +1,160 @@
+{
+ "by_marker_jitter_px": {
+  "0": {
+   "frames": 61,
+   "max_abs_deg_over_seeds": 0.18783399148302776,
+   "rms_deg_max": 0.0785266623200077,
+   "rms_deg_mean": 0.0726010470821555,
+   "rms_deg_min": 0.06381678423081642
+  },
+  "0.3": {
+   "frames": 61,
+   "max_abs_deg_over_seeds": 0.3717640054216385,
+   "rms_deg_max": 0.14576575154381402,
+   "rms_deg_mean": 0.1384152090054352,
+   "rms_deg_min": 0.1273808623441887
+  },
+  "1": {
+   "frames": 61,
+   "max_abs_deg_over_seeds": 1.327676669264176,
+   "rms_deg_max": 0.418467892179913,
+   "rms_deg_mean": 0.39893093439927346,
+   "rms_deg_min": 0.36503949725394624
+  }
+ },
+ "degrees_per_pixel_note": "marker radius 140 px, so 1 px of sideways movement is about 0.41 deg",
+ "environment": {
+  "machine": "arm64",
+  "motion_io_lab": "0.1.0",
+  "numpy": "2.4.6",
+  "opencv": "5.0.0",
+  "opencv_python_package": "5.0.0.93",
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "pyserial": "3.5",
+  "python": "3.11.7"
+ },
+ "runs": [
+  {
+   "frames": 61,
+   "marker_jitter_px": 0.0,
+   "max_abs_deg": 0.16456681777590268,
+   "rms_deg": 0.07684973673333835,
+   "rms_norm": 0.013412809352875857,
+   "seed": 1
+  },
+  {
+   "frames": 61,
+   "marker_jitter_px": 0.0,
+   "max_abs_deg": 0.1796819870735806,
+   "rms_deg": 0.0785266623200077,
+   "rms_norm": 0.013705488080859031,
+   "seed": 2
+  },
+  {
+   "frames": 61,
+   "marker_jitter_px": 0.0,
+   "max_abs_deg": 0.18783399148302776,
+   "rms_deg": 0.07557133767378066,
+   "rms_norm": 0.013189686625439052,
+   "seed": 3
+  },
+  {
+   "frames": 61,
+   "marker_jitter_px": 0.0,
+   "max_abs_deg": 0.1610330033708456,
+   "rms_deg": 0.06381678423081642,
+   "rms_norm": 0.011138130028625437,
+   "seed": 4
+  },
+  {
+   "frames": 61,
+   "marker_jitter_px": 0.0,
+   "max_abs_deg": 0.17539411589178686,
+   "rms_deg": 0.06824071445283439,
+   "rms_norm": 0.01191025151115241,
+   "seed": 5
+  },
+  {
+   "frames": 61,
+   "marker_jitter_px": 0.3,
+   "max_abs_deg": 0.3717640054216385,
+   "rms_deg": 0.14464466478745533,
+   "rms_norm": 0.025245256459846,
+   "seed": 1
+  },
+  {
+   "frames": 61,
+   "marker_jitter_px": 0.3,
+   "max_abs_deg": 0.31256954011979887,
+   "rms_deg": 0.13368547825694174,
+   "rms_norm": 0.023332517576869233,
+   "seed": 2
+  },
+  {
+   "frames": 61,
+   "marker_jitter_px": 0.3,
+   "max_abs_deg": 0.340902980832859,
+   "rms_deg": 0.14576575154381402,
+   "rms_norm": 0.025440923010835618,
+   "seed": 3
+  },
+  {
+   "frames": 61,
+   "marker_jitter_px": 0.3,
+   "max_abs_deg": 0.333264320559154,
+   "rms_deg": 0.1273808623441887,
+   "rms_norm": 0.022232154519357547,
+   "seed": 4
+  },
+  {
+   "frames": 61,
+   "marker_jitter_px": 0.3,
+   "max_abs_deg": 0.29611247650841444,
+   "rms_deg": 0.14059928809477618,
+   "rms_norm": 0.02453920503213909,
+   "seed": 5
+  },
+  {
+   "frames": 61,
+   "marker_jitter_px": 1.0,
+   "max_abs_deg": 0.8884832366213168,
+   "rms_deg": 0.40546651187492455,
+   "rms_norm": 0.0707672563879412,
+   "seed": 1
+  },
+  {
+   "frames": 61,
+   "marker_jitter_px": 1.0,
+   "max_abs_deg": 0.8872934705326009,
+   "rms_deg": 0.405002130069247,
+   "rms_norm": 0.0706862064729869,
+   "seed": 2
+  },
+  {
+   "frames": 61,
+   "marker_jitter_px": 1.0,
+   "max_abs_deg": 0.9189621080572193,
+   "rms_deg": 0.418467892179913,
+   "rms_norm": 0.07303642532420113,
+   "seed": 3
+  },
+  {
+   "frames": 61,
+   "marker_jitter_px": 1.0,
+   "max_abs_deg": 0.935217749108766,
+   "rms_deg": 0.36503949725394624,
+   "rms_norm": 0.06371141126906162,
+   "seed": 4
+  },
+  {
+   "frames": 61,
+   "marker_jitter_px": 1.0,
+   "max_abs_deg": 1.327676669264176,
+   "rms_deg": 0.4006786406183365,
+   "rms_norm": 0.0699316152120506,
+   "seed": 5
+  }
+ ],
+ "source": "synthetic",
+ "what": "rendered marker -> mp4 -> detector; angle error against the drawn angle"
+}

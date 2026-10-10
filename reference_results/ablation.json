@@ -1,0 +1,795 @@
+{
+ "note": "RMS values in degrees, mean over 5 replays; see docs/DESIGN.md section 5",
+ "repeats": 5,
+ "rows": [
+  {
+   "command_stage_by_grid_ms": {
+    "look_wait_nod": {
+     "10": 0.09118241568316644,
+     "2": 0.04614649000416472,
+     "20": 0.12895140890907517,
+     "40": 0.18236483136633289,
+     "5": 0.06447570445453758
+    },
+    "step_hold": {
+     "10": 0.06786704419617515,
+     "2": 0.030351064850926045,
+     "20": 0.09597849434040515,
+     "40": 0.13573408839235032,
+     "5": 0.04798924717020258
+    },
+    "sweep": {
+     "10": 0.10119356825992518,
+     "2": 0.04525513950299156,
+     "20": 0.14310931665811374,
+     "40": 0.20238713651985035,
+     "5": 0.07155465832905687
+    }
+   },
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.05002462542479842,
+     "rms_deg_replay_vs_recording_applied": 0.09106526772735626,
+     "rms_deg_replay_vs_recording_commanded": 0.09118241568316644,
+     "rms_deg_replay_vs_recording_observed": 0.07211432601899706,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.07035178813212573,
+     "rms_deg_replay_vs_replay_observed": 0.055622291976252444
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.051996792381646346,
+     "rms_deg_replay_vs_recording_applied": 0.048367856488420125,
+     "rms_deg_replay_vs_recording_commanded": 0.06786704419617515,
+     "rms_deg_replay_vs_recording_observed": 0.07252430480259146,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.07779553451319184,
+     "rms_deg_replay_vs_replay_observed": 0.05739326691841623
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.04956563841800597,
+     "rms_deg_replay_vs_recording_applied": 0.011292332731702957,
+     "rms_deg_replay_vs_recording_commanded": 0.10119356825992518,
+     "rms_deg_replay_vs_recording_observed": 0.06519853731976945,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.06369723459821544,
+     "rms_deg_replay_vs_replay_observed": 0.05520263849023608
+    }
+   },
+   "noise_floor_sd_deg": 0.04747929242503978,
+   "seed": 3,
+   "settings": {
+    "deadband_deg": 0.0886,
+    "distractor_p": 0.03,
+    "dropout_p": 0.03,
+    "gain_sigma": 0.01,
+    "marker_noise_px": 0.0,
+    "start_state": "homed",
+    "timing_jitter": true
+   },
+   "variant": "baseline",
+   "what": "the demo's assumptions (every trial starts from a homed horn)"
+  },
+  {
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.050921098425270435,
+     "rms_deg_replay_vs_recording_applied": 0.09106526772735626,
+     "rms_deg_replay_vs_recording_commanded": 0.09118241568316644,
+     "rms_deg_replay_vs_recording_observed": 0.07117619317332032,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.07035178813212573,
+     "rms_deg_replay_vs_replay_observed": 0.05657470183726364
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.054496290719408175,
+     "rms_deg_replay_vs_recording_applied": 0.048367856488420125,
+     "rms_deg_replay_vs_recording_commanded": 0.06786704419617515,
+     "rms_deg_replay_vs_recording_observed": 0.18438301492104878,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.07451224257388678,
+     "rms_deg_replay_vs_replay_observed": 0.05996611723515353
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.04873931182574454,
+     "rms_deg_replay_vs_recording_applied": 0.011292332731702957,
+     "rms_deg_replay_vs_recording_commanded": 0.10119356825992518,
+     "rms_deg_replay_vs_recording_observed": 0.1289208986225886,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.06328301290790742,
+     "rms_deg_replay_vs_replay_observed": 0.0543331892662677
+    }
+   },
+   "noise_floor_sd_deg": 0.04747929242503978,
+   "seed": 3,
+   "settings": {
+    "deadband_deg": 0.0886,
+    "distractor_p": 0.03,
+    "dropout_p": 0.03,
+    "gain_sigma": 0.01,
+    "marker_noise_px": 0.0,
+    "start_state": "carry_over",
+    "timing_jitter": true
+   },
+   "variant": "carry_over_start",
+   "what": "the horn keeps the previous trial's end position at the start"
+  },
+  {
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.04458886774458478,
+     "rms_deg_replay_vs_recording_applied": 0.09106526772735626,
+     "rms_deg_replay_vs_recording_commanded": 0.09118241568316644,
+     "rms_deg_replay_vs_recording_observed": 0.07163568818152176,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.07142356661297289,
+     "rms_deg_replay_vs_replay_observed": 0.049276080159789654
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.05072533176080562,
+     "rms_deg_replay_vs_recording_applied": 0.048367856488420125,
+     "rms_deg_replay_vs_recording_commanded": 0.06786704419617515,
+     "rms_deg_replay_vs_recording_observed": 0.07415884400294784,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.07971479306775554,
+     "rms_deg_replay_vs_replay_observed": 0.05612209360709526
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.04496172482052538,
+     "rms_deg_replay_vs_recording_applied": 0.011292332731702957,
+     "rms_deg_replay_vs_recording_commanded": 0.10119356825992518,
+     "rms_deg_replay_vs_recording_observed": 0.06071021091763511,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.0592426169179308,
+     "rms_deg_replay_vs_replay_observed": 0.04998430384106409
+    }
+   },
+   "noise_floor_sd_deg": 0.04747929242503978,
+   "seed": 3,
+   "settings": {
+    "deadband_deg": 0.0886,
+    "distractor_p": 0.03,
+    "dropout_p": 0.03,
+    "gain_sigma": 0.0,
+    "marker_noise_px": 0.0,
+    "start_state": "homed",
+    "timing_jitter": true
+   },
+   "variant": "gain_jitter_off",
+   "what": "no trial-to-trial gain change (1 % -> 0)"
+  },
+  {
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.07392358209051408,
+     "rms_deg_replay_vs_recording_applied": 0.09106526772735626,
+     "rms_deg_replay_vs_recording_commanded": 0.09118241568316644,
+     "rms_deg_replay_vs_recording_observed": 0.164277705803662,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.17280106819595054,
+     "rms_deg_replay_vs_replay_observed": 0.08193851321247785
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.07272497421120261,
+     "rms_deg_replay_vs_recording_applied": 0.048367856488420125,
+     "rms_deg_replay_vs_recording_commanded": 0.06786704419617515,
+     "rms_deg_replay_vs_recording_observed": 0.218672691393407,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.2589636260755438,
+     "rms_deg_replay_vs_replay_observed": 0.07847150354524543
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.09461441943377465,
+     "rms_deg_replay_vs_recording_applied": 0.011292332731702957,
+     "rms_deg_replay_vs_recording_commanded": 0.10119356825992518,
+     "rms_deg_replay_vs_recording_observed": 0.09837122537215523,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.1034108033070753,
+     "rms_deg_replay_vs_replay_observed": 0.10262266614293185
+    }
+   },
+   "noise_floor_sd_deg": 0.04747929242503978,
+   "seed": 3,
+   "settings": {
+    "deadband_deg": 0.0886,
+    "distractor_p": 0.03,
+    "dropout_p": 0.03,
+    "gain_sigma": 0.05,
+    "marker_noise_px": 0.0,
+    "start_state": "homed",
+    "timing_jitter": true
+   },
+   "variant": "gain_jitter_5pct",
+   "what": "trial-to-trial gain change 5 % instead of 1 %"
+  },
+  {
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.05378276472334152,
+     "rms_deg_replay_vs_recording_applied": 0.09106526772735626,
+     "rms_deg_replay_vs_recording_commanded": 0.09118241568316644,
+     "rms_deg_replay_vs_recording_observed": 0.07973623424973857,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.08002215400192933,
+     "rms_deg_replay_vs_replay_observed": 0.059408897186687695
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.060178641301286875,
+     "rms_deg_replay_vs_recording_applied": 0.048367856488420125,
+     "rms_deg_replay_vs_recording_commanded": 0.06786704419617515,
+     "rms_deg_replay_vs_recording_observed": 0.10839058677926963,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.12232835532990845,
+     "rms_deg_replay_vs_replay_observed": 0.0660834549097668
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.04917216116296462,
+     "rms_deg_replay_vs_recording_applied": 0.011292332731702957,
+     "rms_deg_replay_vs_recording_commanded": 0.10119356825992518,
+     "rms_deg_replay_vs_recording_observed": 0.0678610305903633,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.0705724424535931,
+     "rms_deg_replay_vs_replay_observed": 0.05429656548489579
+    }
+   },
+   "noise_floor_sd_deg": 0.04747929242503978,
+   "seed": 3,
+   "settings": {
+    "deadband_deg": 0.0,
+    "distractor_p": 0.03,
+    "dropout_p": 0.03,
+    "gain_sigma": 0.01,
+    "marker_noise_px": 0.0,
+    "start_state": "homed",
+    "timing_jitter": true
+   },
+   "variant": "deadband_off",
+   "what": "no stiction dead band (0.12 deg -> 0)"
+  },
+  {
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.0597685964423803,
+     "rms_deg_replay_vs_recording_applied": 0.09106526772735626,
+     "rms_deg_replay_vs_recording_commanded": 0.09118241568316644,
+     "rms_deg_replay_vs_recording_observed": 0.10032289582602523,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.10735491517664557,
+     "rms_deg_replay_vs_replay_observed": 0.0664115738880066
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.04276075069342888,
+     "rms_deg_replay_vs_recording_applied": 0.048367856488420125,
+     "rms_deg_replay_vs_recording_commanded": 0.06786704419617515,
+     "rms_deg_replay_vs_recording_observed": 0.06407399069951306,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.06416353035143754,
+     "rms_deg_replay_vs_replay_observed": 0.04733414926664216
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.05412314466701574,
+     "rms_deg_replay_vs_recording_applied": 0.011292332731702957,
+     "rms_deg_replay_vs_recording_commanded": 0.10119356825992518,
+     "rms_deg_replay_vs_recording_observed": 0.07291805817178827,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.07691727220093561,
+     "rms_deg_replay_vs_replay_observed": 0.060394751061964715
+    }
+   },
+   "noise_floor_sd_deg": 0.04747929242503978,
+   "seed": 3,
+   "settings": {
+    "deadband_deg": 0.369,
+    "distractor_p": 0.03,
+    "dropout_p": 0.03,
+    "gain_sigma": 0.01,
+    "marker_noise_px": 0.0,
+    "start_state": "homed",
+    "timing_jitter": true
+   },
+   "variant": "deadband_0p5deg",
+   "what": "dead band 0.5 deg (about 5 us) instead of 0.12 deg"
+  },
+  {
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.04689341196404754,
+     "rms_deg_replay_vs_recording_applied": 0.0,
+     "rms_deg_replay_vs_recording_commanded": 0.0,
+     "rms_deg_replay_vs_recording_observed": 0.07157000463788832,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.07283374746159745,
+     "rms_deg_replay_vs_replay_observed": 0.05228745174178295
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.05586123727757389,
+     "rms_deg_replay_vs_recording_applied": 0.030560512988633565,
+     "rms_deg_replay_vs_recording_commanded": 0.0,
+     "rms_deg_replay_vs_recording_observed": 0.06905504777832804,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.0772945109104528,
+     "rms_deg_replay_vs_replay_observed": 0.06145859035134747
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.04798048148069479,
+     "rms_deg_replay_vs_recording_applied": 0.05207119545365897,
+     "rms_deg_replay_vs_recording_commanded": 0.0,
+     "rms_deg_replay_vs_recording_observed": 0.06215163587907837,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.06245678882366161,
+     "rms_deg_replay_vs_replay_observed": 0.05349907499767118
+    }
+   },
+   "noise_floor_sd_deg": 0.04747929242503978,
+   "seed": 3,
+   "settings": {
+    "deadband_deg": 0.0886,
+    "distractor_p": 0.03,
+    "dropout_p": 0.03,
+    "gain_sigma": 0.01,
+    "marker_noise_px": 0.0,
+    "start_state": "homed",
+    "timing_jitter": false
+   },
+   "variant": "timing_jitter_off",
+   "what": "no host wake-up jitter and no link delay jitter"
+  },
+  {
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.04715357380555188,
+     "rms_deg_replay_vs_recording_applied": 0.09106526772735626,
+     "rms_deg_replay_vs_recording_commanded": 0.09118241568316644,
+     "rms_deg_replay_vs_recording_observed": 0.07321030416299608,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.07730279383535302,
+     "rms_deg_replay_vs_replay_observed": 0.052474574493129776
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.05100817342238303,
+     "rms_deg_replay_vs_recording_applied": 0.048367856488420125,
+     "rms_deg_replay_vs_recording_commanded": 0.06786704419617515,
+     "rms_deg_replay_vs_recording_observed": 0.07770149563375409,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.0796972322222339,
+     "rms_deg_replay_vs_replay_observed": 0.05595366900100703
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.04796151158760091,
+     "rms_deg_replay_vs_recording_applied": 0.011292332731702957,
+     "rms_deg_replay_vs_recording_commanded": 0.10119356825992518,
+     "rms_deg_replay_vs_recording_observed": 0.07180518642877959,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.07457753373770451,
+     "rms_deg_replay_vs_replay_observed": 0.053393363939914805
+    }
+   },
+   "noise_floor_sd_deg": 0.05096500215444985,
+   "seed": 3,
+   "settings": {
+    "deadband_deg": 0.0886,
+    "distractor_p": 0.0,
+    "dropout_p": 0.0,
+    "gain_sigma": 0.01,
+    "marker_noise_px": 0.0,
+    "start_state": "homed",
+    "timing_jitter": true
+   },
+   "variant": "camera_dropout_off",
+   "what": "no marker dropouts and no second blob"
+  },
+  {
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.35706465582064945,
+     "rms_deg_replay_vs_recording_applied": 0.09106526772735626,
+     "rms_deg_replay_vs_recording_commanded": 0.09118241568316644,
+     "rms_deg_replay_vs_recording_observed": 0.4966949436607487,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.5187371002795053,
+     "rms_deg_replay_vs_replay_observed": 0.3984805281820666
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.3619062317351251,
+     "rms_deg_replay_vs_recording_applied": 0.048367856488420125,
+     "rms_deg_replay_vs_recording_commanded": 0.06786704419617515,
+     "rms_deg_replay_vs_recording_observed": 0.4893670883421196,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.49631145580277974,
+     "rms_deg_replay_vs_replay_observed": 0.4042296203552921
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.3514170541396862,
+     "rms_deg_replay_vs_recording_applied": 0.011292332731702957,
+     "rms_deg_replay_vs_recording_commanded": 0.10119356825992518,
+     "rms_deg_replay_vs_recording_observed": 0.4619673008668346,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.4557649778561597,
+     "rms_deg_replay_vs_replay_observed": 0.39237076583480013
+    }
+   },
+   "noise_floor_sd_deg": 0.4193879686479481,
+   "seed": 3,
+   "settings": {
+    "deadband_deg": 0.0886,
+    "distractor_p": 0.03,
+    "dropout_p": 0.03,
+    "gain_sigma": 0.01,
+    "marker_noise_px": 1.0,
+    "start_state": "homed",
+    "timing_jitter": true
+   },
+   "variant": "marker_noise_1px",
+   "what": "marker position noise 1 px (the demo uses 0)"
+  },
+  {
+   "command_stage_by_grid_ms": {
+    "look_wait_nod": {
+     "10": 0.09262717724175086,
+     "2": 0.04166827866307381,
+     "20": 0.13099461029962056,
+     "40": 0.18525435448350172,
+     "5": 0.06549730514981028
+    },
+    "step_hold": {
+     "10": 0.1149925288766425,
+     "2": 0.0789622919259445,
+     "20": 0.16262399390892762,
+     "40": 0.229985057753285,
+     "5": 0.08131199695446381
+    },
+    "sweep": {
+     "10": 0.09153249376675784,
+     "2": 0.04174729958103916,
+     "20": 0.1294464940827797,
+     "40": 0.18306498753351566,
+     "5": 0.06472324704138985
+    }
+   },
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.050027093446388365,
+     "rms_deg_replay_vs_recording_applied": 0.06957035811824208,
+     "rms_deg_replay_vs_recording_commanded": 0.09262717724175086,
+     "rms_deg_replay_vs_recording_observed": 0.08009011916299427,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.08272959252761362,
+     "rms_deg_replay_vs_replay_observed": 0.055673234244032345
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.05052758823140652,
+     "rms_deg_replay_vs_recording_applied": 0.032996626788094174,
+     "rms_deg_replay_vs_recording_commanded": 0.1149925288766425,
+     "rms_deg_replay_vs_recording_observed": 0.06188880583226154,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.059358482436878635,
+     "rms_deg_replay_vs_replay_observed": 0.056230392116310146
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.047705429711919906,
+     "rms_deg_replay_vs_recording_applied": 0.016829185259841523,
+     "rms_deg_replay_vs_recording_commanded": 0.09153249376675784,
+     "rms_deg_replay_vs_recording_observed": 0.060806907544305386,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.06241669115739531,
+     "rms_deg_replay_vs_replay_observed": 0.053213485062637664
+    }
+   },
+   "noise_floor_sd_deg": 0.04592017152026872,
+   "seed": 7,
+   "settings": {
+    "deadband_deg": 0.0989,
+    "distractor_p": 0.03,
+    "dropout_p": 0.03,
+    "gain_sigma": 0.01,
+    "marker_noise_px": 0.0,
+    "start_state": "homed",
+    "timing_jitter": true
+   },
+   "variant": "baseline",
+   "what": "the demo's assumptions (every trial starts from a homed horn)"
+  },
+  {
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.05034000759642156,
+     "rms_deg_replay_vs_recording_applied": 0.06957035811824208,
+     "rms_deg_replay_vs_recording_commanded": 0.09262717724175086,
+     "rms_deg_replay_vs_recording_observed": 0.0789097880925248,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.08272959252761362,
+     "rms_deg_replay_vs_replay_observed": 0.056055076157166636
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.05176870442201328,
+     "rms_deg_replay_vs_recording_applied": 0.032996626788094174,
+     "rms_deg_replay_vs_recording_commanded": 0.1149925288766425,
+     "rms_deg_replay_vs_recording_observed": 0.18165948094110235,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.05714197751353328,
+     "rms_deg_replay_vs_replay_observed": 0.05736796223903916
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.04874671546242649,
+     "rms_deg_replay_vs_recording_applied": 0.016829185259841523,
+     "rms_deg_replay_vs_recording_commanded": 0.09153249376675784,
+     "rms_deg_replay_vs_recording_observed": 0.1275838448342125,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.06241669115739531,
+     "rms_deg_replay_vs_replay_observed": 0.054420579509333565
+    }
+   },
+   "noise_floor_sd_deg": 0.04592017152026872,
+   "seed": 7,
+   "settings": {
+    "deadband_deg": 0.0989,
+    "distractor_p": 0.03,
+    "dropout_p": 0.03,
+    "gain_sigma": 0.01,
+    "marker_noise_px": 0.0,
+    "start_state": "carry_over",
+    "timing_jitter": true
+   },
+   "variant": "carry_over_start",
+   "what": "the horn keeps the previous trial's end position at the start"
+  },
+  {
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.04282911289369964,
+     "rms_deg_replay_vs_recording_applied": 0.06957035811824208,
+     "rms_deg_replay_vs_recording_commanded": 0.09262717724175086,
+     "rms_deg_replay_vs_recording_observed": 0.06649873427042252,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.06533867323933999,
+     "rms_deg_replay_vs_replay_observed": 0.04787616632131205
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.052432024270098354,
+     "rms_deg_replay_vs_recording_applied": 0.032996626788094174,
+     "rms_deg_replay_vs_recording_commanded": 0.1149925288766425,
+     "rms_deg_replay_vs_recording_observed": 0.06462279707861479,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.06408094489197122,
+     "rms_deg_replay_vs_replay_observed": 0.05790019228683148
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.0474156478733252,
+     "rms_deg_replay_vs_recording_applied": 0.016829185259841523,
+     "rms_deg_replay_vs_recording_commanded": 0.09153249376675784,
+     "rms_deg_replay_vs_recording_observed": 0.06196049741076968,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.06386483768880004,
+     "rms_deg_replay_vs_replay_observed": 0.05260929624249242
+    }
+   },
+   "noise_floor_sd_deg": 0.04592017152026872,
+   "seed": 7,
+   "settings": {
+    "deadband_deg": 0.0989,
+    "distractor_p": 0.03,
+    "dropout_p": 0.03,
+    "gain_sigma": 0.0,
+    "marker_noise_px": 0.0,
+    "start_state": "homed",
+    "timing_jitter": true
+   },
+   "variant": "gain_jitter_off",
+   "what": "no trial-to-trial gain change (1 % -> 0)"
+  },
+  {
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.13133133503174882,
+     "rms_deg_replay_vs_recording_applied": 0.06957035811824208,
+     "rms_deg_replay_vs_recording_commanded": 0.09262717724175086,
+     "rms_deg_replay_vs_recording_observed": 0.18037735973482988,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.1959168303392411,
+     "rms_deg_replay_vs_replay_observed": 0.1439070487978819
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.06756097512769473,
+     "rms_deg_replay_vs_recording_applied": 0.032996626788094174,
+     "rms_deg_replay_vs_recording_commanded": 0.1149925288766425,
+     "rms_deg_replay_vs_recording_observed": 0.12002989690078317,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.1374642924831207,
+     "rms_deg_replay_vs_replay_observed": 0.07524132602055833
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.06674443526074199,
+     "rms_deg_replay_vs_recording_applied": 0.016829185259841523,
+     "rms_deg_replay_vs_recording_commanded": 0.09153249376675784,
+     "rms_deg_replay_vs_recording_observed": 0.07448313637847219,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.0770138320376836,
+     "rms_deg_replay_vs_replay_observed": 0.07171273554750604
+    }
+   },
+   "noise_floor_sd_deg": 0.04592017152026872,
+   "seed": 7,
+   "settings": {
+    "deadband_deg": 0.0989,
+    "distractor_p": 0.03,
+    "dropout_p": 0.03,
+    "gain_sigma": 0.05,
+    "marker_noise_px": 0.0,
+    "start_state": "homed",
+    "timing_jitter": true
+   },
+   "variant": "gain_jitter_5pct",
+   "what": "trial-to-trial gain change 5 % instead of 1 %"
+  },
+  {
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.048580025349027216,
+     "rms_deg_replay_vs_recording_applied": 0.06957035811824208,
+     "rms_deg_replay_vs_recording_commanded": 0.09262717724175086,
+     "rms_deg_replay_vs_recording_observed": 0.08341212276631435,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.08756986725698611,
+     "rms_deg_replay_vs_replay_observed": 0.054211402157674615
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.06160925495702006,
+     "rms_deg_replay_vs_recording_applied": 0.032996626788094174,
+     "rms_deg_replay_vs_recording_commanded": 0.1149925288766425,
+     "rms_deg_replay_vs_recording_observed": 0.08052641229750221,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.08762322223551919,
+     "rms_deg_replay_vs_replay_observed": 0.06755632607051758
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.047846190740627,
+     "rms_deg_replay_vs_recording_applied": 0.016829185259841523,
+     "rms_deg_replay_vs_recording_commanded": 0.09153249376675784,
+     "rms_deg_replay_vs_recording_observed": 0.06652425044345238,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.06584295245624713,
+     "rms_deg_replay_vs_replay_observed": 0.05329985341108116
+    }
+   },
+   "noise_floor_sd_deg": 0.04592017152026872,
+   "seed": 7,
+   "settings": {
+    "deadband_deg": 0.0,
+    "distractor_p": 0.03,
+    "dropout_p": 0.03,
+    "gain_sigma": 0.01,
+    "marker_noise_px": 0.0,
+    "start_state": "homed",
+    "timing_jitter": true
+   },
+   "variant": "deadband_off",
+   "what": "no stiction dead band (0.12 deg -> 0)"
+  },
+  {
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.06424104696713959,
+     "rms_deg_replay_vs_recording_applied": 0.06957035811824208,
+     "rms_deg_replay_vs_recording_commanded": 0.09262717724175086,
+     "rms_deg_replay_vs_recording_observed": 0.08597053933633798,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.0925133588986274,
+     "rms_deg_replay_vs_replay_observed": 0.07147997285825017
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.04138826727772378,
+     "rms_deg_replay_vs_recording_applied": 0.032996626788094174,
+     "rms_deg_replay_vs_recording_commanded": 0.1149925288766425,
+     "rms_deg_replay_vs_recording_observed": 0.054363345232656346,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.04849055028983144,
+     "rms_deg_replay_vs_replay_observed": 0.04586774989857425
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.04442678877045597,
+     "rms_deg_replay_vs_recording_applied": 0.016829185259841523,
+     "rms_deg_replay_vs_recording_commanded": 0.09153249376675784,
+     "rms_deg_replay_vs_recording_observed": 0.06685046142190333,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.06726367275746825,
+     "rms_deg_replay_vs_replay_observed": 0.049684164600404805
+    }
+   },
+   "noise_floor_sd_deg": 0.04592017152026872,
+   "seed": 7,
+   "settings": {
+    "deadband_deg": 0.4119,
+    "distractor_p": 0.03,
+    "dropout_p": 0.03,
+    "gain_sigma": 0.01,
+    "marker_noise_px": 0.0,
+    "start_state": "homed",
+    "timing_jitter": true
+   },
+   "variant": "deadband_0p5deg",
+   "what": "dead band 0.5 deg (about 5 us) instead of 0.12 deg"
+  },
+  {
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.04605080281899343,
+     "rms_deg_replay_vs_recording_applied": 0.0,
+     "rms_deg_replay_vs_recording_commanded": 0.0,
+     "rms_deg_replay_vs_recording_observed": 0.06855156735427796,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.06845078222433022,
+     "rms_deg_replay_vs_replay_observed": 0.05140552502103161
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.04793570544761304,
+     "rms_deg_replay_vs_recording_applied": 0.12272143438990435,
+     "rms_deg_replay_vs_recording_commanded": 0.0,
+     "rms_deg_replay_vs_recording_observed": 0.058560180275884575,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.05794521074107397,
+     "rms_deg_replay_vs_replay_observed": 0.05285132264268296
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.04690366191599828,
+     "rms_deg_replay_vs_recording_applied": 0.02613850562886232,
+     "rms_deg_replay_vs_recording_commanded": 0.0,
+     "rms_deg_replay_vs_recording_observed": 0.06378602575201017,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.06610574188832258,
+     "rms_deg_replay_vs_replay_observed": 0.052279345410507674
+    }
+   },
+   "noise_floor_sd_deg": 0.04592017152026872,
+   "seed": 7,
+   "settings": {
+    "deadband_deg": 0.0989,
+    "distractor_p": 0.03,
+    "dropout_p": 0.03,
+    "gain_sigma": 0.01,
+    "marker_noise_px": 0.0,
+    "start_state": "homed",
+    "timing_jitter": false
+   },
+   "variant": "timing_jitter_off",
+   "what": "no host wake-up jitter and no link delay jitter"
+  },
+  {
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.043707317984945655,
+     "rms_deg_replay_vs_recording_applied": 0.06957035811824208,
+     "rms_deg_replay_vs_recording_commanded": 0.09262717724175086,
+     "rms_deg_replay_vs_recording_observed": 0.06620386904125034,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.06608806070226612,
+     "rms_deg_replay_vs_replay_observed": 0.048748951637951794
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.04912703007999493,
+     "rms_deg_replay_vs_recording_applied": 0.032996626788094174,
+     "rms_deg_replay_vs_recording_commanded": 0.1149925288766425,
+     "rms_deg_replay_vs_recording_observed": 0.05981270818269106,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.057103076635848474,
+     "rms_deg_replay_vs_replay_observed": 0.05485562762422784
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.04330504304758891,
+     "rms_deg_replay_vs_recording_applied": 0.016829185259841523,
+     "rms_deg_replay_vs_recording_commanded": 0.09153249376675784,
+     "rms_deg_replay_vs_recording_observed": 0.05894291425476591,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.06103033297598305,
+     "rms_deg_replay_vs_replay_observed": 0.048227641286054904
+    }
+   },
+   "noise_floor_sd_deg": 0.04896636070587699,
+   "seed": 7,
+   "settings": {
+    "deadband_deg": 0.0989,
+    "distractor_p": 0.0,
+    "dropout_p": 0.0,
+    "gain_sigma": 0.01,
+    "marker_noise_px": 0.0,
+    "start_state": "homed",
+    "timing_jitter": true
+   },
+   "variant": "camera_dropout_off",
+   "what": "no marker dropouts and no second blob"
+  },
+  {
+   "motions": {
+    "look_wait_nod": {
+     "observed_repeat_sd": 0.35104725183246294,
+     "rms_deg_replay_vs_recording_applied": 0.06957035811824208,
+     "rms_deg_replay_vs_recording_commanded": 0.09262717724175086,
+     "rms_deg_replay_vs_recording_observed": 0.4730875157395351,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.47090405526793333,
+     "rms_deg_replay_vs_replay_observed": 0.3925760605211471
+    },
+    "step_hold": {
+     "observed_repeat_sd": 0.3617531409803492,
+     "rms_deg_replay_vs_recording_applied": 0.032996626788094174,
+     "rms_deg_replay_vs_recording_commanded": 0.1149925288766425,
+     "rms_deg_replay_vs_recording_observed": 0.4913244599893162,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.49520937557225597,
+     "rms_deg_replay_vs_replay_observed": 0.40158237466724556
+    },
+    "sweep": {
+     "observed_repeat_sd": 0.36230715727368473,
+     "rms_deg_replay_vs_recording_applied": 0.016829185259841523,
+     "rms_deg_replay_vs_recording_commanded": 0.09153249376675784,
+     "rms_deg_replay_vs_recording_observed": 0.5319788679463908,
+     "rms_deg_replay_vs_recording_observed_after_500ms": 0.5384302884556182,
+     "rms_deg_replay_vs_replay_observed": 0.4045999662208022
+    }
+   },
+   "noise_floor_sd_deg": 0.4272904373690509,
+   "seed": 7,
+   "settings": {
+    "deadband_deg": 0.0989,
+    "distractor_p": 0.03,
+    "dropout_p": 0.03,
+    "gain_sigma": 0.01,
+    "marker_noise_px": 1.0,
+    "start_state": "homed",
+    "timing_jitter": true
+   },
+   "variant": "marker_noise_1px",
+   "what": "marker position noise 1 px (the demo uses 0)"
+  }
+ ],
+ "seeds": [
+  3,
+  7
+ ],
+ "source": "synthetic"
+}

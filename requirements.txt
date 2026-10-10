@@ -1,0 +1,8 @@
+# Ranges that were actually run (see requirements-lowest.txt for the oldest set and
+# requirements-lock.txt for the pinned set). opencv-python 4.9 is NOT supported: its mp4
+# round trip reads marker angles differently (self-test error 0.037 > 0.03 normalised, demo
+# numbers move); 4.14.0.94 and 5.0.0.93 gave identical demo results. opencv-python 4.14 needs numpy 2.
+numpy>=2.0
+opencv-python>=4.14
+pyserial>=3.5
+matplotlib>=3.9

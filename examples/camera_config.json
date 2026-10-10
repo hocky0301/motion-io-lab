@@ -1,0 +1,12 @@
+{
+  "source": 0,
+  "capture_backend": "default",
+  "hsv_lower": [35, 80, 70],
+  "hsv_upper": [85, 255, 255],
+  "min_area_px": 40,
+  "max_area_px": 10000,
+  "pivot_px": null,
+  "reference_angle_rad": null,
+  "angle_scale_rad": null,
+  "notes": "EXAMPLE ONLY. Choose the real video source and marker colour. This is not a camera calibration."
+}

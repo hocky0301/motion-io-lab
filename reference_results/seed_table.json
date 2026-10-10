@@ -1,0 +1,915 @@
+{
+ "note": "per-seed values and median / min / max over the seeds; the checked-in demo reference is seed 7, one draw among these",
+ "per_seed": [
+  {
+   "failure_cases_all_rejected": {
+    "replayed_arm_and_set_after_quick_reconnect": true,
+    "replayed_arm_and_set_after_reconnect": true,
+    "replayed_arm_and_set_after_reconnect_device_reboot": true
+   },
+   "failure_cases_plant_moved_deg": {
+    "replayed_arm_and_set_after_quick_reconnect": 0.0,
+    "replayed_arm_and_set_after_reconnect": 0.0,
+    "replayed_arm_and_set_after_reconnect_device_reboot": 0.0
+   },
+   "motions": {
+    "look_wait_nod": {
+     "bridged_fraction": 0.1209254525810957,
+     "frames": 419,
+     "invalid_frames": 26,
+     "lag_applied_to_observed_expected_ms": 103.29941235842709,
+     "lag_applied_to_observed_ms": 101.33995866696856,
+     "lag_commanded_to_observed_ms": 117.33045869000686,
+     "observed_repeat_sd": 0.055039225082311856,
+     "observed_repeat_sd_minus_floor": 0.029010738826266837,
+     "replay_vs_recording_applied": 0.11712325380382531,
+     "replay_vs_recording_applied_after_500ms": 0.11675454034526589,
+     "replay_vs_recording_commanded": 0.10132850361196291,
+     "replay_vs_recording_commanded_after_500ms": 0.1000483620902924,
+     "replay_vs_recording_observed": 0.07654744326103424,
+     "replay_vs_recording_observed_after_500ms": 0.0805862521855075,
+     "replay_vs_replay_observed": 0.06026708494193198
+    },
+    "step_hold": {
+     "bridged_fraction": 0.09451044010675598,
+     "frames": 299,
+     "invalid_frames": 14,
+     "lag_applied_to_observed_expected_ms": 89.73460699253856,
+     "lag_applied_to_observed_ms": 88.64340851293719,
+     "lag_commanded_to_observed_ms": 123.19105300440499,
+     "observed_repeat_sd": 0.047268285540262425,
+     "observed_repeat_sd_minus_floor": 0.0068262352362236465,
+     "replay_vs_recording_applied": 0.001354570922957194,
+     "replay_vs_recording_applied_after_500ms": 0.0015339299776947423,
+     "replay_vs_recording_commanded": 0.10030392024958681,
+     "replay_vs_recording_commanded_after_500ms": 0.08731067583132435,
+     "replay_vs_recording_observed": 0.06024514310235637,
+     "replay_vs_recording_observed_after_500ms": 0.06274219507616319,
+     "replay_vs_replay_observed": 0.05255739369983141
+    },
+    "sweep": {
+     "bridged_fraction": 0.12299665340325172,
+     "frames": 419,
+     "invalid_frames": 25,
+     "lag_applied_to_observed_expected_ms": 111.49479888520116,
+     "lag_applied_to_observed_ms": 109.8020721655661,
+     "lag_commanded_to_observed_ms": 125.45060161911833,
+     "observed_repeat_sd": 0.047522473406366846,
+     "observed_repeat_sd_minus_floor": 0.008407862287366728,
+     "replay_vs_recording_applied": 0.050720641409488065,
+     "replay_vs_recording_applied_after_500ms": 0.05273080482975971,
+     "replay_vs_recording_commanded": 0.08800084797680012,
+     "replay_vs_recording_commanded_after_500ms": 0.08686490336386452,
+     "replay_vs_recording_observed": 0.06843419001527565,
+     "replay_vs_recording_observed_after_500ms": 0.06795241687536399,
+     "replay_vs_replay_observed": 0.05293200392659726
+    }
+   },
+   "noise_floor_sd_deg": 0.04677278407808884,
+   "pacing_drift_ppm": {
+    "deadline": -0.22315656282407612,
+    "relative": 7651.152385801212
+   },
+   "resume_max_applied_rate_deg_per_s": {
+    "continue": 37.323738644252636,
+    "restart": 15.092659496395655
+   },
+   "seed": 1
+  },
+  {
+   "failure_cases_all_rejected": {
+    "replayed_arm_and_set_after_quick_reconnect": true,
+    "replayed_arm_and_set_after_reconnect": true,
+    "replayed_arm_and_set_after_reconnect_device_reboot": true
+   },
+   "failure_cases_plant_moved_deg": {
+    "replayed_arm_and_set_after_quick_reconnect": 0.0,
+    "replayed_arm_and_set_after_reconnect": 0.0,
+    "replayed_arm_and_set_after_reconnect_device_reboot": 0.0
+   },
+   "motions": {
+    "look_wait_nod": {
+     "bridged_fraction": 0.096028880866426,
+     "frames": 420,
+     "invalid_frames": 21,
+     "lag_applied_to_observed_expected_ms": 108.1470003282449,
+     "lag_applied_to_observed_ms": 106.76726434330094,
+     "lag_commanded_to_observed_ms": 121.72228894546804,
+     "observed_repeat_sd": 0.05695324474352777,
+     "observed_repeat_sd_minus_floor": 0.034843246913188894,
+     "replay_vs_recording_applied": 0.022435590134827894,
+     "replay_vs_recording_applied_after_500ms": 0.02241428116179504,
+     "replay_vs_recording_commanded": 0.08468418086521265,
+     "replay_vs_recording_commanded_after_500ms": 0.08555345493838856,
+     "replay_vs_recording_observed": 0.07611531415874431,
+     "replay_vs_recording_observed_after_500ms": 0.07470178151594292,
+     "replay_vs_replay_observed": 0.061811097462635876
+    },
+    "step_hold": {
+     "bridged_fraction": 0.08843476895703595,
+     "frames": 299,
+     "invalid_frames": 13,
+     "lag_applied_to_observed_expected_ms": 87.69049141306202,
+     "lag_applied_to_observed_ms": 87.09029389198736,
+     "lag_commanded_to_observed_ms": 124.55761240004787,
+     "observed_repeat_sd": 0.04347844476219578,
+     "observed_repeat_sd_minus_floor": 0.0,
+     "replay_vs_recording_applied": 0.11961466117150854,
+     "replay_vs_recording_applied_after_500ms": 0.10371809965710696,
+     "replay_vs_recording_commanded": 0.12072554650290257,
+     "replay_vs_recording_commanded_after_500ms": 0.05533091626965401,
+     "replay_vs_recording_observed": 0.07032202412805758,
+     "replay_vs_recording_observed_after_500ms": 0.0716512839734634,
+     "replay_vs_replay_observed": 0.048440899931040546
+    },
+    "sweep": {
+     "bridged_fraction": 0.09978709617698786,
+     "frames": 420,
+     "invalid_frames": 23,
+     "lag_applied_to_observed_expected_ms": 111.90033563780419,
+     "lag_applied_to_observed_ms": 111.75233799452481,
+     "lag_commanded_to_observed_ms": 127.2787750105064,
+     "observed_repeat_sd": 0.0494949937910024,
+     "observed_repeat_sd_minus_floor": 0.020497174903108973,
+     "replay_vs_recording_applied": 0.0697480858159298,
+     "replay_vs_recording_applied_after_500ms": 0.06711686746746118,
+     "replay_vs_recording_commanded": 0.09266911864684257,
+     "replay_vs_recording_commanded_after_500ms": 0.08974268418351736,
+     "replay_vs_recording_observed": 0.07982325464590286,
+     "replay_vs_recording_observed_after_500ms": 0.08340919602533217,
+     "replay_vs_replay_observed": 0.055372441992470864
+    }
+   },
+   "noise_floor_sd_deg": 0.04505130665544259,
+   "pacing_drift_ppm": {
+    "deadline": 1.3414893101891239,
+    "relative": 7484.397198407629
+   },
+   "resume_max_applied_rate_deg_per_s": {
+    "continue": 37.502324206542696,
+    "restart": 15.061314611784562
+   },
+   "seed": 2
+  },
+  {
+   "failure_cases_all_rejected": {
+    "replayed_arm_and_set_after_quick_reconnect": true,
+    "replayed_arm_and_set_after_reconnect": true,
+    "replayed_arm_and_set_after_reconnect_device_reboot": true
+   },
+   "failure_cases_plant_moved_deg": {
+    "replayed_arm_and_set_after_quick_reconnect": 0.0,
+    "replayed_arm_and_set_after_reconnect": 0.0,
+    "replayed_arm_and_set_after_reconnect_device_reboot": 0.0
+   },
+   "motions": {
+    "look_wait_nod": {
+     "bridged_fraction": 0.13790613718411554,
+     "frames": 420,
+     "invalid_frames": 30,
+     "lag_applied_to_observed_expected_ms": 102.17282486727258,
+     "lag_applied_to_observed_ms": 100.96663697466911,
+     "lag_commanded_to_observed_ms": 118.39828902219278,
+     "observed_repeat_sd": 0.05002462542479842,
+     "observed_repeat_sd_minus_floor": 0.01575372780356919,
+     "replay_vs_recording_applied": 0.09106526772735626,
+     "replay_vs_recording_applied_after_500ms": 0.09223429729018742,
+     "replay_vs_recording_commanded": 0.09118241568316644,
+     "replay_vs_recording_commanded_after_500ms": 0.08812045821397833,
+     "replay_vs_recording_observed": 0.07211432601899706,
+     "replay_vs_recording_observed_after_500ms": 0.07035178813212573,
+     "replay_vs_replay_observed": 0.055622291976252444
+    },
+    "step_hold": {
+     "bridged_fraction": 0.1401015228426396,
+     "frames": 300,
+     "invalid_frames": 21,
+     "lag_applied_to_observed_expected_ms": 89.29614332210824,
+     "lag_applied_to_observed_ms": 88.2598477533109,
+     "lag_commanded_to_observed_ms": 128.14343566535823,
+     "observed_repeat_sd": 0.051996792381646346,
+     "observed_repeat_sd_minus_floor": 0.021198660542534185,
+     "replay_vs_recording_applied": 0.048367856488420125,
+     "replay_vs_recording_applied_after_500ms": 0.007669649888473705,
+     "replay_vs_recording_commanded": 0.06786704419617515,
+     "replay_vs_recording_commanded_after_500ms": 0.03921326859862503,
+     "replay_vs_recording_observed": 0.07252430480259146,
+     "replay_vs_recording_observed_after_500ms": 0.07779553451319184,
+     "replay_vs_replay_observed": 0.05739326691841623
+    },
+    "sweep": {
+     "bridged_fraction": 0.11407678726712167,
+     "frames": 419,
+     "invalid_frames": 25,
+     "lag_applied_to_observed_expected_ms": 111.6673165036965,
+     "lag_applied_to_observed_ms": 110.34896707840866,
+     "lag_commanded_to_observed_ms": 128.3856211583581,
+     "observed_repeat_sd": 0.04956563841800597,
+     "observed_repeat_sd_minus_floor": 0.014229170833259048,
+     "replay_vs_recording_applied": 0.011292332731702957,
+     "replay_vs_recording_applied_after_500ms": 0.011384199576606167,
+     "replay_vs_recording_commanded": 0.10119356825992518,
+     "replay_vs_recording_commanded_after_500ms": 0.09965905297010241,
+     "replay_vs_recording_observed": 0.06519853731976945,
+     "replay_vs_recording_observed_after_500ms": 0.06369723459821544,
+     "replay_vs_replay_observed": 0.05520263849023608
+    }
+   },
+   "noise_floor_sd_deg": 0.04747929242503978,
+   "pacing_drift_ppm": {
+    "deadline": -1.1016745267912815,
+    "relative": 7500.45825212344
+   },
+   "resume_max_applied_rate_deg_per_s": {
+    "continue": 37.46663502484451,
+    "restart": 15.033029821472175
+   },
+   "seed": 3
+  },
+  {
+   "failure_cases_all_rejected": {
+    "replayed_arm_and_set_after_quick_reconnect": true,
+    "replayed_arm_and_set_after_reconnect": true,
+    "replayed_arm_and_set_after_reconnect_device_reboot": true
+   },
+   "failure_cases_plant_moved_deg": {
+    "replayed_arm_and_set_after_quick_reconnect": 0.0,
+    "replayed_arm_and_set_after_reconnect": 0.0,
+    "replayed_arm_and_set_after_reconnect_device_reboot": 0.0
+   },
+   "motions": {
+    "look_wait_nod": {
+     "bridged_fraction": 0.10489867980710954,
+     "frames": 419,
+     "invalid_frames": 22,
+     "lag_applied_to_observed_expected_ms": 103.67127174314246,
+     "lag_applied_to_observed_ms": 101.4849718497082,
+     "lag_commanded_to_observed_ms": 118.5171303519176,
+     "observed_repeat_sd": 0.055456498639717515,
+     "observed_repeat_sd_minus_floor": 0.024965725582528017,
+     "replay_vs_recording_applied": 0.07568261377902272,
+     "replay_vs_recording_applied_after_500ms": 0.07577503842764483,
+     "replay_vs_recording_commanded": 0.09665371429613481,
+     "replay_vs_recording_commanded_after_500ms": 0.0950286975313183,
+     "replay_vs_recording_observed": 0.08589322939883155,
+     "replay_vs_recording_observed_after_500ms": 0.08966529729119538,
+     "replay_vs_replay_observed": 0.06072093574451008
+    },
+    "step_hold": {
+     "bridged_fraction": 0.0751269035532995,
+     "frames": 300,
+     "invalid_frames": 11,
+     "lag_applied_to_observed_expected_ms": 87.89440508477075,
+     "lag_applied_to_observed_ms": 86.56125643273504,
+     "lag_commanded_to_observed_ms": 121.97535602209739,
+     "observed_repeat_sd": 0.044674228221081864,
+     "observed_repeat_sd_minus_floor": 0.0,
+     "replay_vs_recording_applied": 0.03669098187053004,
+     "replay_vs_recording_applied_after_500ms": 0.03248183247143623,
+     "replay_vs_recording_commanded": 0.10437139028258287,
+     "replay_vs_recording_commanded_after_500ms": 0.05478078746888397,
+     "replay_vs_recording_observed": 0.060170647413289494,
+     "replay_vs_recording_observed_after_500ms": 0.061788551496586866,
+     "replay_vs_replay_observed": 0.04914063009252258
+    },
+    "sweep": {
+     "bridged_fraction": 0.13637249993412212,
+     "frames": 419,
+     "invalid_frames": 29,
+     "lag_applied_to_observed_expected_ms": 111.8136864818257,
+     "lag_applied_to_observed_ms": 111.30670077447084,
+     "lag_commanded_to_observed_ms": 131.06188167405028,
+     "observed_repeat_sd": 0.045670749322296866,
+     "observed_repeat_sd_minus_floor": 0.0,
+     "replay_vs_recording_applied": 0.10662543845056609,
+     "replay_vs_recording_applied_after_500ms": 0.10567336207192288,
+     "replay_vs_recording_commanded": 0.0733267059402652,
+     "replay_vs_recording_commanded_after_500ms": 0.06973331692234522,
+     "replay_vs_recording_observed": 0.0784281358406029,
+     "replay_vs_recording_observed_after_500ms": 0.0805066802002899,
+     "replay_vs_replay_observed": 0.05101562360830643
+    }
+   },
+   "noise_floor_sd_deg": 0.04951904469509581,
+   "pacing_drift_ppm": {
+    "deadline": 0.5372443145315418,
+    "relative": 7470.516013630681
+   },
+   "resume_max_applied_rate_deg_per_s": {
+    "continue": 37.40298600504941,
+    "restart": 15.061269621351457
+   },
+   "seed": 4
+  },
+  {
+   "failure_cases_all_rejected": {
+    "replayed_arm_and_set_after_quick_reconnect": true,
+    "replayed_arm_and_set_after_reconnect": true,
+    "replayed_arm_and_set_after_reconnect_device_reboot": true
+   },
+   "failure_cases_plant_moved_deg": {
+    "replayed_arm_and_set_after_quick_reconnect": 0.0,
+    "replayed_arm_and_set_after_reconnect": 0.0,
+    "replayed_arm_and_set_after_reconnect_device_reboot": 0.0
+   },
+   "motions": {
+    "look_wait_nod": {
+     "bridged_fraction": 0.08741995836517431,
+     "frames": 419,
+     "invalid_frames": 18,
+     "lag_applied_to_observed_expected_ms": 105.03262934530592,
+     "lag_applied_to_observed_ms": 102.78313975448638,
+     "lag_commanded_to_observed_ms": 118.60720700951079,
+     "observed_repeat_sd": 0.04687277828837957,
+     "observed_repeat_sd_minus_floor": 0.0060966531642770334,
+     "replay_vs_recording_applied": 0.03382088366187663,
+     "replay_vs_recording_applied_after_500ms": 0.033065101974595945,
+     "replay_vs_recording_commanded": 0.09631075275821817,
+     "replay_vs_recording_commanded_after_500ms": 0.0956673816087315,
+     "replay_vs_recording_observed": 0.06934633734360962,
+     "replay_vs_recording_observed_after_500ms": 0.07074342923476659,
+     "replay_vs_replay_observed": 0.05222879010616131
+    },
+    "step_hold": {
+     "bridged_fraction": 0.11675126903553298,
+     "frames": 300,
+     "invalid_frames": 17,
+     "lag_applied_to_observed_expected_ms": 90.21612975337477,
+     "lag_applied_to_observed_ms": 88.57817882762916,
+     "lag_commanded_to_observed_ms": 126.52887159882292,
+     "observed_repeat_sd": 0.04779974320137326,
+     "observed_repeat_sd_minus_floor": 0.011177087520956943,
+     "replay_vs_recording_applied": 0.0019156525704423037,
+     "replay_vs_recording_applied_after_500ms": 0.0015339299776947423,
+     "replay_vs_recording_commanded": 0.10440047798065873,
+     "replay_vs_recording_commanded_after_500ms": 0.09073712431507851,
+     "replay_vs_recording_observed": 0.06332007415882426,
+     "replay_vs_recording_observed_after_500ms": 0.059273421186830856,
+     "replay_vs_replay_observed": 0.052599326636500854
+    },
+    "sweep": {
+     "bridged_fraction": 0.09747292418772564,
+     "frames": 420,
+     "invalid_frames": 21,
+     "lag_applied_to_observed_expected_ms": 111.17561389738087,
+     "lag_applied_to_observed_ms": 110.64268599345655,
+     "lag_commanded_to_observed_ms": 127.82986874691319,
+     "observed_repeat_sd": 0.05240570275705913,
+     "observed_repeat_sd_minus_floor": 0.024217132712093255,
+     "replay_vs_recording_applied": 0.005792844463634922,
+     "replay_vs_recording_applied_after_500ms": 0.006324555320336757,
+     "replay_vs_recording_commanded": 0.08734651260522829,
+     "replay_vs_recording_commanded_after_500ms": 0.08559843461985026,
+     "replay_vs_recording_observed": 0.066406121583221,
+     "replay_vs_recording_observed_after_500ms": 0.06857243254039991,
+     "replay_vs_replay_observed": 0.05767186075289921
+    }
+   },
+   "noise_floor_sd_deg": 0.04647459698228805,
+   "pacing_drift_ppm": {
+    "deadline": 0.5153128643043995,
+    "relative": 7658.316954536124
+   },
+   "resume_max_applied_rate_deg_per_s": {
+    "continue": 37.5968475995741,
+    "restart": 15.060617101255316
+   },
+   "seed": 5
+  },
+  {
+   "failure_cases_all_rejected": {
+    "replayed_arm_and_set_after_quick_reconnect": true,
+    "replayed_arm_and_set_after_reconnect": true,
+    "replayed_arm_and_set_after_reconnect_device_reboot": true
+   },
+   "failure_cases_plant_moved_deg": {
+    "replayed_arm_and_set_after_quick_reconnect": 0.0,
+    "replayed_arm_and_set_after_reconnect": 0.0,
+    "replayed_arm_and_set_after_reconnect_device_reboot": 0.0
+   },
+   "motions": {
+    "look_wait_nod": {
+     "bridged_fraction": 0.11951619664602879,
+     "frames": 420,
+     "invalid_frames": 30,
+     "lag_applied_to_observed_expected_ms": 104.44741206924395,
+     "lag_applied_to_observed_ms": 102.65971728093068,
+     "lag_commanded_to_observed_ms": 117.52727176148707,
+     "observed_repeat_sd": 0.04756286110268601,
+     "observed_repeat_sd_minus_floor": 0.0,
+     "replay_vs_recording_applied": 0.015315752984240968,
+     "replay_vs_recording_applied_after_500ms": 0.013450115041630623,
+     "replay_vs_recording_commanded": 0.09076556019665356,
+     "replay_vs_recording_commanded_after_500ms": 0.09003703014336477,
+     "replay_vs_recording_observed": 0.056412911365352994,
+     "replay_vs_recording_observed_after_500ms": 0.05736606143873102,
+     "replay_vs_replay_observed": 0.05313779085040634
+    },
+    "step_hold": {
+     "bridged_fraction": 0.10367954551432104,
+     "frames": 300,
+     "invalid_frames": 17,
+     "lag_applied_to_observed_expected_ms": 86.09671574101108,
+     "lag_applied_to_observed_ms": 85.42600611448944,
+     "lag_commanded_to_observed_ms": 125.9607098705194,
+     "observed_repeat_sd": 0.05087706412678658,
+     "observed_repeat_sd_minus_floor": 0.0037296235869616694,
+     "replay_vs_recording_applied": 0.006772854614785967,
+     "replay_vs_recording_applied_after_500ms": 0.0076696498884737075,
+     "replay_vs_recording_commanded": 0.13775360888174712,
+     "replay_vs_recording_commanded_after_500ms": 0.11636186828423267,
+     "replay_vs_recording_observed": 0.07278538145813039,
+     "replay_vs_recording_observed_after_500ms": 0.07552540246883772,
+     "replay_vs_replay_observed": 0.05681779881020784
+    },
+    "sweep": {
+     "bridged_fraction": 0.08231046931407941,
+     "frames": 420,
+     "invalid_frames": 19,
+     "lag_applied_to_observed_expected_ms": 112.55373445855045,
+     "lag_applied_to_observed_ms": 112.15906701606282,
+     "lag_commanded_to_observed_ms": 127.89086350388604,
+     "observed_repeat_sd": 0.05068869715047415,
+     "observed_repeat_sd_minus_floor": 0.0,
+     "replay_vs_recording_applied": 0.10133339220532848,
+     "replay_vs_recording_applied_after_500ms": 0.09959919678390985,
+     "replay_vs_recording_commanded": 0.0916929959365401,
+     "replay_vs_recording_commanded_after_500ms": 0.0898519827610748,
+     "replay_vs_recording_observed": 0.08217908004440602,
+     "replay_vs_recording_observed_after_500ms": 0.08879802763409875,
+     "replay_vs_replay_observed": 0.05590499293583455
+    }
+   },
+   "noise_floor_sd_deg": 0.050740177000683916,
+   "pacing_drift_ppm": {
+    "deadline": -2.423171788182051,
+    "relative": 7203.619401252605
+   },
+   "resume_max_applied_rate_deg_per_s": {
+    "continue": 37.635781431353514,
+    "restart": 15.084517040526316
+   },
+   "seed": 6
+  },
+  {
+   "failure_cases_all_rejected": {
+    "replayed_arm_and_set_after_quick_reconnect": true,
+    "replayed_arm_and_set_after_reconnect": true,
+    "replayed_arm_and_set_after_reconnect_device_reboot": true
+   },
+   "failure_cases_plant_moved_deg": {
+    "replayed_arm_and_set_after_quick_reconnect": 0.0,
+    "replayed_arm_and_set_after_reconnect": 0.0,
+    "replayed_arm_and_set_after_reconnect_device_reboot": 0.0
+   },
+   "motions": {
+    "look_wait_nod": {
+     "bridged_fraction": 0.05912020323572671,
+     "frames": 420,
+     "invalid_frames": 14,
+     "lag_applied_to_observed_expected_ms": 100.5041313452834,
+     "lag_applied_to_observed_ms": 98.9278918793669,
+     "lag_commanded_to_observed_ms": 115.67276334835029,
+     "observed_repeat_sd": 0.050027093446388365,
+     "observed_repeat_sd_minus_floor": 0.019850640449183873,
+     "replay_vs_recording_applied": 0.06957035811824208,
+     "replay_vs_recording_applied_after_500ms": 0.06712954045721746,
+     "replay_vs_recording_commanded": 0.09262717724175086,
+     "replay_vs_recording_commanded_after_500ms": 0.09154545486955853,
+     "replay_vs_recording_observed": 0.08009011916299427,
+     "replay_vs_recording_observed_after_500ms": 0.08272959252761362,
+     "replay_vs_replay_observed": 0.055673234244032345
+    },
+    "step_hold": {
+     "bridged_fraction": 0.09373070281019416,
+     "frames": 298,
+     "invalid_frames": 15,
+     "lag_applied_to_observed_expected_ms": 88.92650925656476,
+     "lag_applied_to_observed_ms": 88.89573724075198,
+     "lag_commanded_to_observed_ms": 124.85889496071238,
+     "observed_repeat_sd": 0.05052758823140652,
+     "observed_repeat_sd_minus_floor": 0.021080204458962724,
+     "replay_vs_recording_applied": 0.032996626788094174,
+     "replay_vs_recording_applied_after_500ms": 0.02842595639645697,
+     "replay_vs_recording_commanded": 0.1149925288766425,
+     "replay_vs_recording_commanded_after_500ms": 0.10771878562039075,
+     "replay_vs_recording_observed": 0.06188880583226154,
+     "replay_vs_recording_observed_after_500ms": 0.059358482436878635,
+     "replay_vs_replay_observed": 0.056230392116310146
+    },
+    "sweep": {
+     "bridged_fraction": 0.13413923467943337,
+     "frames": 419,
+     "invalid_frames": 30,
+     "lag_applied_to_observed_expected_ms": 113.82931805785026,
+     "lag_applied_to_observed_ms": 113.38509202424339,
+     "lag_commanded_to_observed_ms": 130.4301365097327,
+     "observed_repeat_sd": 0.047705429711919906,
+     "observed_repeat_sd_minus_floor": 0.012928490691029334,
+     "replay_vs_recording_applied": 0.016829185259841523,
+     "replay_vs_recording_applied_after_500ms": 0.017158088471621775,
+     "replay_vs_recording_commanded": 0.09153249376675784,
+     "replay_vs_recording_commanded_after_500ms": 0.08943262648664603,
+     "replay_vs_recording_observed": 0.060806907544305386,
+     "replay_vs_recording_observed_after_500ms": 0.06241669115739531,
+     "replay_vs_replay_observed": 0.053213485062637664
+    }
+   },
+   "noise_floor_sd_deg": 0.04592017152026872,
+   "pacing_drift_ppm": {
+    "deadline": -0.25871983293871825,
+    "relative": 6914.752281487974
+   },
+   "resume_max_applied_rate_deg_per_s": {
+    "continue": 37.58660235081147,
+    "restart": 15.020226988674203
+   },
+   "seed": 7
+  },
+  {
+   "failure_cases_all_rejected": {
+    "replayed_arm_and_set_after_quick_reconnect": true,
+    "replayed_arm_and_set_after_reconnect": true,
+    "replayed_arm_and_set_after_reconnect_device_reboot": true
+   },
+   "failure_cases_plant_moved_deg": {
+    "replayed_arm_and_set_after_quick_reconnect": 0.0,
+    "replayed_arm_and_set_after_reconnect": 0.0,
+    "replayed_arm_and_set_after_reconnect_device_reboot": 0.0
+   },
+   "motions": {
+    "look_wait_nod": {
+     "bridged_fraction": 0.10851483053649118,
+     "frames": 420,
+     "invalid_frames": 24,
+     "lag_applied_to_observed_expected_ms": 104.31255544395378,
+     "lag_applied_to_observed_ms": 102.60336616956798,
+     "lag_commanded_to_observed_ms": 118.93200914878608,
+     "observed_repeat_sd": 0.04827833280862751,
+     "observed_repeat_sd_minus_floor": 0.009192299058768437,
+     "replay_vs_recording_applied": 0.07111182256776528,
+     "replay_vs_recording_applied_after_500ms": 0.07122435996870927,
+     "replay_vs_recording_commanded": 0.09650066265244925,
+     "replay_vs_recording_commanded_after_500ms": 0.09510344221385174,
+     "replay_vs_recording_observed": 0.06397990109159216,
+     "replay_vs_recording_observed_after_500ms": 0.06532244256626232,
+     "replay_vs_replay_observed": 0.05388417997642521
+    },
+    "step_hold": {
+     "bridged_fraction": 0.13705583756345177,
+     "frames": 300,
+     "invalid_frames": 20,
+     "lag_applied_to_observed_expected_ms": 88.60467348582372,
+     "lag_applied_to_observed_ms": 88.91203073934929,
+     "lag_commanded_to_observed_ms": 127.35964705349821,
+     "observed_repeat_sd": 0.04401929451411635,
+     "observed_repeat_sd_minus_floor": 0.0,
+     "replay_vs_recording_applied": 0.02919002253588416,
+     "replay_vs_recording_applied_after_500ms": 0.028200959516425296,
+     "replay_vs_recording_commanded": 0.1329267800808774,
+     "replay_vs_recording_commanded_after_500ms": 0.1078071985141845,
+     "replay_vs_recording_observed": 0.05496247209697441,
+     "replay_vs_recording_observed_after_500ms": 0.05439702293036834,
+     "replay_vs_replay_observed": 0.04902052971953404
+    },
+    "sweep": {
+     "bridged_fraction": 0.09314079422382672,
+     "frames": 420,
+     "invalid_frames": 20,
+     "lag_applied_to_observed_expected_ms": 110.25680299981971,
+     "lag_applied_to_observed_ms": 110.01861469306057,
+     "lag_commanded_to_observed_ms": 126.8244955393988,
+     "observed_repeat_sd": 0.04723086535822343,
+     "observed_repeat_sd_minus_floor": 0.0,
+     "replay_vs_recording_applied": 0.12054128480434363,
+     "replay_vs_recording_applied_after_500ms": 0.1164474130240771,
+     "replay_vs_recording_commanded": 0.08654912708463225,
+     "replay_vs_recording_commanded_after_500ms": 0.08017813042223229,
+     "replay_vs_recording_observed": 0.09965771834235317,
+     "replay_vs_recording_observed_after_500ms": 0.09935052447385487,
+     "replay_vs_replay_observed": 0.05221353720914003
+    }
+   },
+   "noise_floor_sd_deg": 0.04739513748049228,
+   "pacing_drift_ppm": {
+    "deadline": -0.09377463014005333,
+    "relative": 7416.463508089679
+   },
+   "resume_max_applied_rate_deg_per_s": {
+    "continue": 37.41430907257331,
+    "restart": 20.016724640661533
+   },
+   "seed": 8
+  }
+ ],
+ "repeats": 5,
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "source": "synthetic",
+ "summary": {
+  "motions": {
+   "look_wait_nod": {
+    "bridged_fraction": {
+     "max": 0.13790613718411554,
+     "median": 0.10670675517180037,
+     "min": 0.05912020323572671,
+     "n": 8
+    },
+    "frames": {
+     "max": 420,
+     "median": 420.0,
+     "min": 419,
+     "n": 8
+    },
+    "invalid_frames": {
+     "max": 30,
+     "median": 23.0,
+     "min": 14,
+     "n": 8
+    },
+    "lag_applied_to_observed_expected_ms": {
+     "max": 108.1470003282449,
+     "median": 103.99191359354812,
+     "min": 100.5041313452834,
+     "n": 8
+    },
+    "lag_applied_to_observed_ms": {
+     "max": 106.76726434330094,
+     "median": 102.0441690096381,
+     "min": 98.9278918793669,
+     "n": 8
+    },
+    "lag_commanded_to_observed_ms": {
+     "max": 121.72228894546804,
+     "median": 118.4577096870552,
+     "min": 115.67276334835029,
+     "n": 8
+    },
+    "observed_repeat_sd": {
+     "max": 0.05695324474352777,
+     "median": 0.050025859435593394,
+     "min": 0.04687277828837957,
+     "n": 8
+    },
+    "observed_repeat_sd_minus_floor": {
+     "max": 0.034843246913188894,
+     "median": 0.017802184126376533,
+     "min": 0.0,
+     "n": 8
+    },
+    "replay_vs_recording_applied": {
+     "max": 0.11712325380382531,
+     "median": 0.07034109034300368,
+     "min": 0.015315752984240968,
+     "n": 8
+    },
+    "replay_vs_recording_applied_after_500ms": {
+     "max": 0.11675454034526589,
+     "median": 0.06917695021296336,
+     "min": 0.013450115041630623,
+     "n": 8
+    },
+    "replay_vs_recording_commanded": {
+     "max": 0.10132850361196291,
+     "median": 0.09446896499998451,
+     "min": 0.08468418086521265,
+     "n": 8
+    },
+    "replay_vs_recording_commanded_after_500ms": {
+     "max": 0.1000483620902924,
+     "median": 0.09328707620043841,
+     "min": 0.08555345493838856,
+     "n": 8
+    },
+    "replay_vs_recording_observed": {
+     "max": 0.08589322939883155,
+     "median": 0.07411482008887069,
+     "min": 0.056412911365352994,
+     "n": 8
+    },
+    "replay_vs_recording_observed_after_500ms": {
+     "max": 0.08966529729119538,
+     "median": 0.07272260537535476,
+     "min": 0.05736606143873102,
+     "n": 8
+    },
+    "replay_vs_replay_observed": {
+     "max": 0.061811097462635876,
+     "median": 0.0556477631101424,
+     "min": 0.05222879010616131,
+     "n": 8
+    }
+   },
+   "step_hold": {
+    "bridged_fraction": {
+     "max": 0.1401015228426396,
+     "median": 0.09909499281053852,
+     "min": 0.0751269035532995,
+     "n": 8
+    },
+    "frames": {
+     "max": 300,
+     "median": 300.0,
+     "min": 298,
+     "n": 8
+    },
+    "invalid_frames": {
+     "max": 21,
+     "median": 16.0,
+     "min": 11,
+     "n": 8
+    },
+    "lag_applied_to_observed_expected_ms": {
+     "max": 90.21612975337477,
+     "median": 88.76559137119423,
+     "min": 86.09671574101108,
+     "n": 8
+    },
+    "lag_applied_to_observed_ms": {
+     "max": 88.91203073934929,
+     "median": 88.41901329047002,
+     "min": 85.42600611448944,
+     "n": 8
+    },
+    "lag_commanded_to_observed_ms": {
+     "max": 128.14343566535823,
+     "median": 125.40980241561589,
+     "min": 121.97535602209739,
+     "n": 8
+    },
+    "observed_repeat_sd": {
+     "max": 0.051996792381646346,
+     "median": 0.04753401437081784,
+     "min": 0.04347844476219578,
+     "n": 8
+    },
+    "observed_repeat_sd_minus_floor": {
+     "max": 0.021198660542534185,
+     "median": 0.005277929411592658,
+     "min": 0.0,
+     "n": 8
+    },
+    "replay_vs_recording_applied": {
+     "max": 0.11961466117150854,
+     "median": 0.031093324661989167,
+     "min": 0.001354570922957194,
+     "n": 8
+    },
+    "replay_vs_recording_applied_after_500ms": {
+     "max": 0.10371809965710696,
+     "median": 0.0179353047024495,
+     "min": 0.0015339299776947423,
+     "n": 8
+    },
+    "replay_vs_recording_commanded": {
+     "max": 0.13775360888174712,
+     "median": 0.10969650342865062,
+     "min": 0.06786704419617515,
+     "n": 8
+    },
+    "replay_vs_recording_commanded_after_500ms": {
+     "max": 0.11636186828423267,
+     "median": 0.08902390007320143,
+     "min": 0.03921326859862503,
+     "n": 8
+    },
+    "replay_vs_recording_observed": {
+     "max": 0.07278538145813039,
+     "median": 0.06260443999554291,
+     "min": 0.05496247209697441,
+     "n": 8
+    },
+    "replay_vs_recording_observed_after_500ms": {
+     "max": 0.07779553451319184,
+     "median": 0.06226537328637503,
+     "min": 0.05439702293036834,
+     "n": 8
+    },
+    "replay_vs_replay_observed": {
+     "max": 0.05739326691841623,
+     "median": 0.05257836016816613,
+     "min": 0.048440899931040546,
+     "n": 8
+    }
+   },
+   "sweep": {
+    "bridged_fraction": {
+     "max": 0.13637249993412212,
+     "median": 0.10693194172205477,
+     "min": 0.08231046931407941,
+     "n": 8
+    },
+    "frames": {
+     "max": 420,
+     "median": 419.5,
+     "min": 419,
+     "n": 8
+    },
+    "invalid_frames": {
+     "max": 30,
+     "median": 24.0,
+     "min": 19,
+     "n": 8
+    },
+    "lag_applied_to_observed_expected_ms": {
+     "max": 113.82931805785026,
+     "median": 111.7405014927611,
+     "min": 110.25680299981971,
+     "n": 8
+    },
+    "lag_applied_to_observed_ms": {
+     "max": 113.38509202424339,
+     "median": 110.9746933839637,
+     "min": 109.8020721655661,
+     "n": 8
+    },
+    "lag_commanded_to_observed_ms": {
+     "max": 131.06188167405028,
+     "median": 127.86036612539962,
+     "min": 125.45060161911833,
+     "n": 8
+    },
+    "observed_repeat_sd": {
+     "max": 0.05240570275705913,
+     "median": 0.04860021175146115,
+     "min": 0.045670749322296866,
+     "n": 8
+    },
+    "observed_repeat_sd_minus_floor": {
+     "max": 0.024217132712093255,
+     "median": 0.01066817648919803,
+     "min": 0.0,
+     "n": 8
+    },
+    "replay_vs_recording_applied": {
+     "max": 0.12054128480434363,
+     "median": 0.06023436361270893,
+     "min": 0.005792844463634922,
+     "n": 8
+    },
+    "replay_vs_recording_applied_after_500ms": {
+     "max": 0.1164474130240771,
+     "median": 0.059923836148610445,
+     "min": 0.006324555320336757,
+     "n": 8
+    },
+    "replay_vs_recording_commanded": {
+     "max": 0.10119356825992518,
+     "median": 0.08976667087177898,
+     "min": 0.0733267059402652,
+     "n": 8
+    },
+    "replay_vs_recording_commanded_after_500ms": {
+     "max": 0.09965905297010241,
+     "median": 0.08814876492525528,
+     "min": 0.06973331692234522,
+     "n": 8
+    },
+    "replay_vs_recording_observed": {
+     "max": 0.09965771834235317,
+     "median": 0.07343116292793928,
+     "min": 0.060806907544305386,
+     "n": 8
+    },
+    "replay_vs_recording_observed_after_500ms": {
+     "max": 0.09935052447385487,
+     "median": 0.0745395563703449,
+     "min": 0.06241669115739531,
+     "n": 8
+    },
+    "replay_vs_replay_observed": {
+     "max": 0.05767186075289921,
+     "median": 0.054208061776436875,
+     "min": 0.05101562360830643,
+     "n": 8
+    }
+   }
+  },
+  "noise_floor_sd_deg": {
+   "max": 0.050740177000683916,
+   "median": 0.04708396077929056,
+   "min": 0.04505130665544259,
+   "n": 8
+  },
+  "pacing_drift_ppm_deadline": {
+   "max": 1.3414893101891239,
+   "median": -0.1584655964820647,
+   "min": -2.423171788182051,
+   "n": 8
+  },
+  "pacing_drift_ppm_relative": {
+   "max": 7658.316954536124,
+   "median": 7477.4566060191555,
+   "min": 6914.752281487974,
+   "n": 8
+  }
+ }
+}

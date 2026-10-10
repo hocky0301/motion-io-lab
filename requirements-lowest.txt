@@ -1,0 +1,7 @@
+# The oldest versions the declared ranges allow, pinned. Run scripts/verify_fresh_clone.sh with
+# LOCK=lowest to install these, run the tests and the demo, and compare with reference_results/.
+numpy==2.0.2
+opencv-python==4.14.0.94
+pyserial==3.5
+matplotlib==3.9.4
+pytest==8.0.2

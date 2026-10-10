@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "motion-io-lab"
+version = "0.1.0"
+description = "Record a human input, replay it to a servo (or a virtual one), and observe what moved."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "LicenseRef-Permission-Required"
+dependencies = [
+  "numpy>=2.0",
+  "opencv-python>=4.14",
+  "pyserial>=3.5",
+  "matplotlib>=3.9",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["motion_io_lab*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["error::ResourceWarning"]

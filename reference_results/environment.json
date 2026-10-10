@@ -1,0 +1,15 @@
+{
+  "environment": {
+    "machine": "arm64",
+    "motion_io_lab": "0.1.0",
+    "numpy": "2.4.6",
+    "opencv": "5.0.0",
+    "opencv_python_package": "5.0.0.93",
+    "platform": "macOS-26.5-arm64-arm-64bit",
+    "pyserial": "3.5",
+    "python": "3.11.7"
+  },
+  "note": "Everything in this folder was produced by code on a virtual device, a synthetic servo and a rendered video. None of it is a hardware measurement.",
+  "source": "synthetic",
+  "what": "output of `python -m motion_io_lab demo --out ...` (seed 7, 5 repeats)"
+}

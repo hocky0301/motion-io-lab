@@ -1,0 +1,143 @@
+{
+  "capture_time_provenance": [
+    "device",
+    "estimated",
+    "unknown"
+  ],
+  "clock_domains": [
+    "host_monotonic",
+    "device_millis",
+    "browser_performance",
+    "media_position"
+  ],
+  "common_fields": [
+    "schema_version",
+    "session_id",
+    "trial_id",
+    "stream",
+    "record_type",
+    "mode",
+    "session_epoch",
+    "source",
+    "clock_domain",
+    "capture_time_ns",
+    "capture_time_provenance",
+    "received_monotonic_ns",
+    "processed_monotonic_ns",
+    "units",
+    "coordinate_frame",
+    "calibration_version",
+    "valid"
+  ],
+  "files": {
+    "command": "<trial_id>/command.jsonl",
+    "input": "<trial_id>/input.jsonl",
+    "observation": "<trial_id>/observation.jsonl"
+  },
+  "invalid_reasons": [
+    "none_found",
+    "multiple_blobs",
+    "no_calibration",
+    "too_close_to_pivot",
+    "read_failed",
+    "out_of_range"
+  ],
+  "links": [
+    "none",
+    "virtual",
+    "serial"
+  ],
+  "modes": [
+    "DRY_RUN",
+    "LOOPBACK",
+    "HARDWARE_ARMED",
+    "REPLAY"
+  ],
+  "records": {
+    "command/event": [
+      "event",
+      "detail"
+    ],
+    "command/reply": [
+      "reply_status",
+      "reply_reason",
+      "reply_to_seq",
+      "device_millis",
+      "device_applied_pulse_us",
+      "raw"
+    ],
+    "command/set": [
+      "seq",
+      "desired_pulse_us",
+      "commanded_pulse_us",
+      "valid_for_ms",
+      "scheduled_monotonic_ns",
+      "sent_monotonic_ns",
+      "shaping"
+    ],
+    "command/status": [
+      "device_commanded_pulse_us",
+      "device_applied_pulse_us",
+      "device_millis",
+      "armed",
+      "fault",
+      "last_reject",
+      "last_stop",
+      "raw"
+    ],
+    "input/input_event": [
+      "event_id",
+      "input_kind",
+      "input_value",
+      "client_time_ms",
+      "client_clock_domain"
+    ],
+    "input/sync": [
+      "client_offset_ms",
+      "rtt_ms",
+      "samples"
+    ],
+    "observation/frame": [
+      "frame_id",
+      "source_kind",
+      "media_pos_ms",
+      "host_before_read_ns",
+      "host_after_read_ns"
+    ],
+    "observation/marker": [
+      "frame_id",
+      "media_pos_ms",
+      "source_kind",
+      "observed_value",
+      "cx_px",
+      "cy_px",
+      "area_px",
+      "n_blobs",
+      "invalid_reason"
+    ]
+  },
+  "reply_statuses": [
+    "REJECTED",
+    "ACCEPTED_NOT_EXECUTED",
+    "EXECUTED"
+  ],
+  "rules": [
+    "line 1 of every file is a header record (record_type=header)",
+    "capture_time_ns is null unless a device supplied an exposure time; then provenance is 'device' or 'estimated', otherwise 'unknown'",
+    "valid=false means no measurement: value columns are null, never 0",
+    "commanded_* (host), device_* (firmware report) and observed_* (camera) never share a column",
+    "within one session_epoch, command seq strictly increases",
+    "a file is published atomically and never appended to or overwritten"
+  ],
+  "schema_version": "motion-io-lab/trial-v1",
+  "source_kinds": [
+    "live",
+    "file"
+  ],
+  "sources": [
+    "synthetic",
+    "rendered_video",
+    "recorded",
+    "hardware"
+  ]
+}
